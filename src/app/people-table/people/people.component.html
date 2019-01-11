@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>{{data.name}}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p><strong>Creado: </strong>{{data.created | date}}</p>
+            <p><strong>Editado: </strong>{{data.edited | date}}</p>
+            <p><strong>Masa: </strong>{{data.mass}}</p>
+            <p><strong>Color de ojos: </strong>{{data.eye_color}}</p>
+            <p><strong>Color de piel: </strong>{{data.skin_color}}</p>
+            <p><strong>Color de cabello: </strong>{{data.hair_color}}</p>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row">
+        <button mat-button (click)="onNoClick()">Cerrar</button>
+    </div>
+</div>
